@@ -1,0 +1,75 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+}
+
+.nav {
+
+    background-color:#333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a{
+
+    color: inherit;
+}
+
+.site_title {
+
+    font-size: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+            width: 50%;}
+
+.pricing {
+
+    background-color:#333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.api{
+
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+    background-color: lightblue;
+    border-style: double;
+}
+
+.fla{
+
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+    background-color: lightblue;
+    border-style: double;
+
+}
+
+.App-header{
+
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+    background-color: lightblue;
+    border-style: double;
+
+}
