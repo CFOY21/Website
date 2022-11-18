@@ -1,4 +1,14 @@
-export default function Home() {
+import React, {useCallback} from 'react';
+import {useNavigate} from 'react-router-dom'
+ 
+ export default function Home() {
 
-    return <h1> Home</h1>
+    const navigate = useNavigate();
+  const handleOnClick = useCallback(() => navigate('../pricing', {replace: true}), [navigate]);
+
+
+    return (
+        <button type="button" onClick={handleOnClick}>
+        Go home
+      </button>)
 }

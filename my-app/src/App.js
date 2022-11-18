@@ -8,6 +8,7 @@ import Pricing from './pages/Pricing';
 import About from './pages/About';
 import Home from './pages/Home';
 import Test from './pages/test';
+import Backgroundtest from './pages/Backgroundtest';
 
 import Axios from "axios";
 import {useState} from "react";
@@ -33,6 +34,10 @@ function App() {
           case "/test":
           Component = <Test/>
           break
+
+            case "/backgroundtest":
+            Component = <Backgroundtest/>
+            break
   }
 return(
   <>

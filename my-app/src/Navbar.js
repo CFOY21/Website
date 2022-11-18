@@ -19,6 +19,10 @@ return (<nav className="nav">
         <li>
            < a href="/test"> test</a>
         </li>
+
+        <li>
+           < a href="/backgroundtest"> bt</a>
+        </li>
     </ul>
 </nav>)
 

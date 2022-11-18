@@ -48,6 +48,13 @@ body {
 
 }
 
+.mu {
+
+    left: 0;
+bottom: 200;
+
+}
+
 .api{
 
     color: green;
@@ -71,5 +78,33 @@ body {
     font-family: "Times New Roman", Times, serif;
     background-color: lightblue;
     border-style: double;
+
+}
+
+.ba{
+
+    background-image: url("murph.gif");
+    padding:  1rem;
+    width: 2000px;
+    height: 1000px;
+}
+
+.text{
+
+    color: blueviolet;
+    text-align: center;
+    padding: 20px;
+  border-style: solid;
+  border-color: #B6C7D6;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.br{
+    color: blueviolet;
+    text-align: center;
 
 }
